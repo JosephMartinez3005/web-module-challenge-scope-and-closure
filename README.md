@@ -9,17 +9,19 @@ The module challenge is the afternoon project or assignment that students work t
 ## Objectives
 
 - Explain function scope
-- Describe what closure is, how closure is created in a program and why it is important to understand closures in JavaScript  
+- Describe what closure is, how closure is created in a program and why it is important to understand closures in JavaScript  .
+- A closure is something you can use to build a memory in javascript. When you have a function it is only able to grab data from the parent function or global depending on where that scope takes place. 
+	 
 
 ## Introduction
 
 This challenge focuses on both scope and closures.
 
-In this challenge you will be working to build a `scoreboard` (in the console) that takes randomly generated data and keeps track of a game's progress. If you're not familiar with the rules of baseball what you need to know is this: there are 9 innings and teams take turns "at-bat." Teams can only score while they are at bat. A team stops being at bat once they have gotten 3 `outs` by either striking out or through game play. You can read more about baseball rules [here](https://www.rulesofsport.com/sports/baseball.html).
+In this challenge you will be working to build a `scoreboard` (in the console) that takes randomly generated data and keeps track of a game's progress. If you're not familiar with the rules of baseball what you need to know is this: there are 9 innings and teams take turns "at-bat." Teams can only score while they are at bat. A team stops being at bat once they have gotten 3 `outs` by either striking out or through game play. You can read more about baseball rules [here][1].
 
 A scoreboard in a major league stadium looks something like this. In fact, the scoreboard at Fenway Park in Boston is actually quite famous. 
 
-![Fenway Scoreboard](https://storage.googleapis.com/afs-prod/media/media:e959506330fd4e5890023c93cfbaac55/800.jpeg)
+![Fenway Scoreboard][image-1]
 
 There are layers upon layers of nested functions within the game of baseball. Your challenge today will be to work through tasks associated with these layers, and ultimately to produce a scoreboard that logs in the console.
 
@@ -74,7 +76,7 @@ After you have completed the requirements, **create** a new file called `stretch
 
 See if you can complete one or more of the following challenges:
 
-1. Write a function that would allow you to do this using a closure. (This is another interview question we've seen before - when you're ready for answers, view an explanation [here](https://www.coderbyte.com/algorithm/3-common-javascript-closure-questions)).
+1. Write a function that would allow you to do this using a closure. (This is another interview question we've seen before - when you're ready for answers, view an explanation [here][2]).
 
 ```js
 var addSix = createBase(6);
@@ -86,10 +88,17 @@ addSix(21); // returns 27
 
 ## Resources
 
-📚 [Scope and Closures Guide](https://css-tricks.com/javascript-scope-closures/)
+📚 [Scope and Closures Guide][3]
 
-🧠 ["I never Understood Closures" Blog](https://medium.com/dailyjs/i-never-understood-javascript-closures-9663703368e8)
+🧠 ["I never Understood Closures" Blog][4]
 
 ## Submission Format
 
 Please see Canvas for cohort specific submission instructions 
+
+[1]:	https://www.rulesofsport.com/sports/baseball.html
+[2]:	https://www.coderbyte.com/algorithm/3-common-javascript-closure-questions
+[3]:	https://css-tricks.com/javascript-scope-closures/
+[4]:	https://medium.com/dailyjs/i-never-understood-javascript-closures-9663703368e8
+
+[image-1]:	https://storage.googleapis.com/afs-prod/media/media:e959506330fd4e5890023c93cfbaac55/800.jpeg
